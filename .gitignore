@@ -1,0 +1,27 @@
+# Секреты
+.env
+token.json
+**/token.json
+client_secret*.json
+**/client_secret*.json
+credentials*.json
+**/credentials*.json
+service_account*.json
+**/service_account*.json
+
+# Данные и отчёты
+data/*.db
+data/*.db-*
+mock_drive/*
+!mock_drive/.gitkeep
+config/settings.txt
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Системное
+.DS_Store
